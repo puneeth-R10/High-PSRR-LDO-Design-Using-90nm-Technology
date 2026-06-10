@@ -168,7 +168,7 @@ increases.
 
 Result:
 
-✅ Higher loop gain
+ Higher loop gain
 
 Approximately:
 
@@ -363,13 +363,13 @@ The most important observation is:
 
 No curve exhibits:
 
-❌ Gain peaking
+ Gain peaking
 
-❌ Sudden resonance
+ Sudden resonance
 
-❌ Instability
+ Instability
 
-❌ Unexpected frequency shifts
+ Unexpected frequency shifts
 
 This indicates:
 
@@ -429,82 +429,14 @@ Larger loop gain results in better supply-noise rejection.
 
 The gain plot confirms that the proposed LDO:
 
-✅ Functions correctly at all process corners.
+ Functions correctly at all process corners.
 
-✅ Operates across the full temperature range.
+ Operates across the full temperature range.
 
-✅ Maintains sufficient gain at both supply voltages.
+ Maintains sufficient gain at both supply voltages.
 
-✅ Preserves regulation accuracy.
+ Preserves regulation accuracy.
 
-✅ Remains suitable for fabrication.
+ Remains suitable for fabrication.
 
----
 
-# Summary Table
-
-<div align="center">
-
-<table>
-<tr>
-<th>Parameter</th>
-<th>Value</th>
-</tr>
-
-<tr>
-<td align="center">Supply Voltages Tested</td>
-<td align="center">1.8 V, 1.9 V</td>
-</tr>
-
-<tr>
-<td align="center">Temperature Range</td>
-<td align="center">-24°C to 125°C</td>
-</tr>
-
-<tr>
-<td align="center">Process Corners</td>
-<td align="center">SS, TT, FF</td>
-</tr>
-
-<tr>
-<td align="center">Maximum Loop Gain</td>
-<td align="center">77.67 dB</td>
-</tr>
-
-<tr>
-<td align="center">Minimum Loop Gain</td>
-<td align="center">60.26 dB</td>
-</tr>
-
-<tr>
-<td align="center">Gain Variation</td>
-<td align="center">17.41 dB</td>
-</tr>
-
-<tr>
-<td align="center">Worst-Case Gain</td>
-<td align="center">60.26 dB</td>
-</tr>
-
-<tr>
-<td align="center">Compensation Method</td>
-<td align="center">Miller Compensation (Rc-Cc)</td>
-</tr>
-
-<tr>
-<td align="center">Stability Across Corners</td>
-<td align="center">Maintained</td>
-</tr>
-
-<tr>
-<td align="center">Regulation Robustness</td>
-<td align="center">Excellent</td>
-</tr>
-
-</table>
-
-</div>
-
-# Conclusion
-
-**Figure 16 presents the loop gain response of the proposed CMOS LDO regulator under various process, voltage, and temperature (PVT) corners. The regulator exhibits a maximum low-frequency gain of approximately 77.67 dB and a minimum gain of approximately 60.26 dB across all corners. Despite a gain variation of 17.41 dB, the loop gain remains sufficiently high to ensure excellent line regulation, load regulation, PSRR, and stability. The similar shape of all gain curves confirms the effectiveness of the Miller compensation network and demonstrates that the proposed LDO maintains robust operation across all considered PVT conditions.**
