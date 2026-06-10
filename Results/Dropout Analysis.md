@@ -148,8 +148,3 @@ resulting in a measured dropout voltage of approximately:
 
 **V<sub>DO</sub> ≈ 96 mV**
 
----
-
-### Conclusion
-
-The transient simulation confirms that the proposed CMOS LDO regulator achieves a **low dropout voltage of approximately 96 mV** while maintaining stable output regulation. The absence of oscillations and the rapid settling behavior demonstrate the effectiveness of the two-stage error amplifier, Miller compensation network, and PMOS pass transistor in providing efficient and reliable voltage regulation.
