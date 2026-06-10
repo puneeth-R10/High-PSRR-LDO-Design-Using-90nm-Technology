@@ -1,4 +1,4 @@
-# 🚀 Low Dropout CMOS Voltage Regulator (LDO) Design Using 90 nm CMOS Technology
+# 🚀 Low Dropout, High PSRR LDO with Improved Line and Load Regulation Design Using 90 nm CMOS Technology 
 
 
 
