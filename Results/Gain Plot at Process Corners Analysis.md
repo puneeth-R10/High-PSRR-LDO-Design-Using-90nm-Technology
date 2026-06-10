@@ -345,13 +345,13 @@ An important observation is that:
 
 There is:
 
-✅ No excessive peaking
+ No excessive peaking
 
-✅ No resonance
+ No resonance
 
-✅ No abrupt pole movement
+ No abrupt pole movement
 
-✅ No instability
+ No instability
 
 This indicates that the compensation network:
 
