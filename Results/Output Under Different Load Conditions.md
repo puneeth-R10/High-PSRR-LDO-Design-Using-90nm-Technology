@@ -291,15 +291,15 @@ which produces a small voltage variation.
 
 The nearly overlapping curves indicate:
 
-✅ Strong feedback action
+ Strong feedback action
 
-✅ Excellent load regulation
+ Excellent load regulation
 
-✅ Stable operation
+ Stable operation
 
-✅ Adequate current-driving capability
+ Adequate current-driving capability
 
-✅ Low sensitivity to load changes
+ Low sensitivity to load changes
 
 ---
 
@@ -334,74 +334,3 @@ $$
 * Improves transient response.
 * Stabilizes output voltage during load changes.
 
----
-
-# Summary Table
-
-<div align="center">
-
-<table>
-<tr>
-<th>Parameter</th>
-<th>Value</th>
-</tr>
-
-<tr>
-<td align="center">Input Voltage Sweep</td>
-<td align="center">0 – 3 V</td>
-</tr>
-
-<tr>
-<td align="center">Load Current Range</td>
-<td align="center">0 – 100 µA</td>
-</tr>
-
-<tr>
-<td align="center">Regulated Output Voltage</td>
-<td align="center">≈ 1.704 V</td>
-</tr>
-
-<tr>
-<td align="center">Regulation Point</td>
-<td align="center">≈ 1.71 V</td>
-</tr>
-
-<tr>
-<td align="center">Marker M1</td>
-<td align="center">(1.71 V, 1.70421 V)</td>
-</tr>
-
-<tr>
-<td align="center">Output Variation with Load</td>
-<td align="center">Very Small</td>
-</tr>
-
-<tr>
-<td align="center">Load Regulation</td>
-<td align="center">Excellent</td>
-</tr>
-
-<tr>
-<td align="center">Closed-Loop Stability</td>
-<td align="center">Stable</td>
-</tr>
-
-<tr>
-<td align="center">Curve Overlap</td>
-<td align="center">Nearly Complete</td>
-</tr>
-
-<tr>
-<td align="center">Regulation Quality</td>
-<td align="center">Excellent</td>
-</tr>
-
-</table>
-
-</div>
-
----
-
-# Conclusion
-
-**Figure 15 illustrates the output voltage characteristics of the proposed CMOS LDO regulator under different load current conditions ranging from 0 µA to 100 µA. The output voltage remains approximately constant at 1.704 V once the input voltage exceeds the regulation threshold of about 1.71 V. The close overlap of all curves demonstrates excellent load regulation, strong feedback control, and robust operation across varying load conditions. These results confirm that the proposed LDO can maintain a stable regulated output voltage while supplying different load currents without significant performance degradation.**
