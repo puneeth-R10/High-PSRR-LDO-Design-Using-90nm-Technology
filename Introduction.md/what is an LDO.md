@@ -7,7 +7,11 @@ The present project focuses on a high-PSRR LDO implemented in Cadence Virtuoso. 
 
 For the mobile and internet-of-things (IoT) applications, the compact integration and low power dissipation is necessary in chip design. System-on-chip (SoC) that is contained every function in a compact chip become popular since it can remove chip-to-chip path-caused parasitic by removing power and signal delivery between chips. According this tendency, power management integrated circuits (PMICs) should be fully-integrated and thus more complex strategies are needed when designing these circuits.
 
-[Figure 1: Power Management Strategies in SoC](Figure 1 Power Management Strategies in SoC.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3e05fcee-5c69-4644-812b-1ddf87b32e6f" alt="Power Management Strategies in SoC" width="519" />
+  <br>
+  <em> Figure 1: Power Management Strategies in SoC </em>
+</p>
 
 A battery provides charges to the inputs of DC/DC converters and these converters deliver supply voltages to loads containing charges in capacitors (CL,DC/DCs) as the level of desired voltage. However, these supplies contain large switching ripples by the operation properties of these converters and spurs from other loads sharing same supply voltage. These problems make the loads which need clean and noise-less supply cannot operate properly. Furthermore, the loads can operate optimally in their own supply voltage level but DC/DC converters only provide same voltage level to their loads.
 
