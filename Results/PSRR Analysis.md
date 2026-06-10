@@ -269,8 +269,4 @@ Therefore:
 
 This demonstrates the strong filtering capability of the regulator.
 
----
 
-## Conclusion
-
-**Figure 9 illustrates the PSRR performance of the proposed CMOS LDO regulator. The regulator achieves approximately −80 dB PSRR at low frequencies, indicating excellent suppression of supply noise. The high rejection is achieved through the combined action of the two-stage error amplifier, PMOS pass transistor, Miller compensation network, and output capacitor. As frequency increases, the loop gain decreases and PSRR gradually degrades, which is the expected behavior of practical LDO regulators. The obtained PSRR performance confirms that the proposed design is suitable for noise-sensitive analog and mixed-signal applications requiring a clean and stable power supply.**
