@@ -42,7 +42,7 @@
 
 <tr>
 <td align="center">Maximum Load Current</td>
-<td align="center">100 µA</td>
+<td align="center">250 µA</td>
 </tr>
 
 <tr>
